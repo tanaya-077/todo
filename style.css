@@ -22,14 +22,14 @@ main{
     position: relative;
     border-radius: 10px;
     box-shadow: 2px 4px 4px rgb(0, 0, 0,0.5);
-
-   
 }
+
 h1{
     text-align: center;
     margin: 1rem;
     color: #7114b5;
     font-size:4rem;
+    text-shadow:1px 4px 4px rgb(0, 0, 0,0.5);
     
 }
 input{
@@ -47,7 +47,7 @@ input{
 #addBtn{
     height: 50px;
     width: 100px;
-    border-radius: 10px;
+    border-radius:10px;
     border: none;
     background-color: #c7bfb4;
     font-size: medium;
@@ -62,9 +62,9 @@ li{
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
-    list-style:circle;
     font-size: medium;
     font-weight: bold;
+    position: relative;
 }
 li button{
     border: none;
@@ -73,5 +73,33 @@ li button{
     display: flex;
     justify-content: space-around;
     cursor: pointer;
-    font-size: medium; 
+    font-size: medium;
 }
+
+
+.editclass{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    font-size: medium;
+}
+/* .deleteBtn{
+    height: 50px;
+    width:100px;
+    background-color: red;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 10px;
+    border: red;
+    color: #fff;
+    position: absolute;
+    right:-100px;
+    transition:all 0.3s ease;
+
+}
+.deleteBtn:hover{
+position: relative;
+right:0;
+
+} */
